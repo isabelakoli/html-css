@@ -1,4 +1,17 @@
 @charset "UTF-8"
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">);
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap" rel="stylesheet">);
+:root{
+    --fonte1:verdana,tahoma,sans-serif;
+    --fonte2:"passion one" , serif;
+    --fonte3: "sriracha",serif  ;
+
+}
 *{
     margin:0px;
     padding:0px;
@@ -12,7 +25,7 @@ header{
     text-align: center;
  background-color: black;
  margin: -5%;
- 
+ font-family: var(--fonte2);
  
  
 }
@@ -21,6 +34,7 @@ header, h1{
     padding-top: 50px;
     color: white;
      font-variant: small-caps;
+     font-size: 5vh;
    
 }
 
@@ -50,6 +64,7 @@ section{
    padding-bottom: 10vh;
    line-height: 2em;
    padding-left: 30px;
+   font-family: var(--fonte3);
    
 }
 section.normal{
@@ -61,7 +76,7 @@ section.imagem{
    color: white;
  }
  section.imagem >p{
-    width: 400px;
+    display: inline-block;
     background-color: black;
  }
 p{
