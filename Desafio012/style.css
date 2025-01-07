@@ -1,71 +1,44 @@
 @charset "UTF-8"
 
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">);
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 :root{
     --fonte1:verdana,tahoma,sans-serif;
-    --fonte2:"Passion One", cursive;
+    --fonte2:"Passion One",cursive;
+    --font3:"Sriracha", cursive ;
  
  
 }
-*{
-   
-    margin:0px;
+*{  margin:0px;
     padding:0px;
-   
+    font-size: 1em;
 }
 
 html,body{
-min-height: 100vh;
+    min-height: 100vh;
+    font-family: var(--fonte1);
+    
 }
 
 header{
     text-align: center;
- background-color: black;
- margin: -5%;
- font-family: var(--fonte2);
- 
- 
+    background-color: black;
+    
 }
 
-header,h1{
+header> h1{
     padding-top: 50px;
     color: white;
      font-variant: small-caps;
-     font-size: 5vh;
-   
-   font-size: 100px;
+     font-family: var(--fonte2);
+     font-size: 5vw;
+    }
+
+header > p{
+    padding-bottom: 50px;
+    color: white;
 }
 
-header,span{
-    
-    font-family: Verdana, "Geneva", Tahoma, sans-serif;
-   font-size: 15px;
-   color:;
-}
-
-header ,p{
-   
-    font-family: "Passion One", "cursive";
-    font-size: 20px;
-    font-variant: small-caps;
-    padding-bottom: 30px;
-    letter-spacing: 0px;
-    box-shadow: #ffffff;
-    
-}
-
-
-main{
-    font-family:var(--fonte2);
-   
-}
-
-h1{
-
-}
 
 section{
    
@@ -74,11 +47,14 @@ section{
    line-height: 2em;
    padding-left: 30px;
    font-family: var(--fonte2);
+   padding-bottom: 180px;
    
 }
 section.normal{
  background-color: white;
  color:black;
+ font-size: 48px;
+ font-family: var(--font3);
 }
 section.imagem{
     background-color:rgb(51, 51, 51);
@@ -86,13 +62,19 @@ section.imagem{
    box-shadow: inset 6px 6px 13px 0px black;
    background-size: cover;
    background-attachment: fixed;
+   height: 700px;
  }
  section.imagem >p{
     display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
    text-shadow: 1px,1px, 0px, black;
+   font-size: 48px;
+   font-family: var(--font3);
  }
 section.p{
-  padding-bottom: 2em;
+    padding-bottom: 2em;
+    
 }
 section#img01{
   background-image: url(imagens/background001.jpg);
@@ -111,26 +93,29 @@ footer{
         color: #ffffff;
         text-align: center;
        padding: 10px;
-
+ font-family: var(--fonte1);
+ 
 }
 
-footer, p{
-    font-family:"Passion One", "cursive" ;
+footer> p{
+    
+    font-weight: 400px
 }
 
-footer,h5{
+footer> a{
     text-transform: uppercase;
+    font-weight: 700px;
 }
 
 
 
 a{
     color: white;
-    text-decoration:none;
-    font-family: "Passion One", "cursive";  
+    text-decoration:none;  
+    font-weight: bolder;    
     
 }
 
-a:hover{
+  a:hover {
     text-decoration: underline;
 }
