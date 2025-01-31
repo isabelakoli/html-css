@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos sem Input</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            Estados 
+<label for="iestados"></label>
+<select name="Estados" id="iestados">
+<optgroup>
+<option value="Pr">Paraná </option>
+<option value="Sc">Santa Catarina </option>
+<option value="Rs">Rio Grande Do Sul </option>
+</optgroup>
+</p>
+<p>
+    <optgroup>
+        
+        <label for="iestados"></label>
+    <option value="Rj">Rio de Janeiro</option>
+    <option value="Sp">São Paulo</option>
+    <option value="Es">Espírito Santo</option>
+    <option value="MG">Minas Gerais</option>
+    </optgroup>
+</p>
+</select> 
+<p>
+
+<label for="iprof"></label>
+<input type="text" name="prof" id="iprof" list="prof">
+<datalist id="prof">
+<option value="cont">Contador</option>
+<option value="esc">Escritor</option>
+<option value="prof">Professor</option>
+<option value="dan">Dançarina</option>
+
+</datalist>
+</p>
+
+<p>
+<label for="imensagem"></label>
+<textarea name="mensagem" id="imensagem" required placeholder="Escreva a sua mensagem aqui...."></textarea>
+</p>
+
+
+<p>
+<input type="submit" value="enviar">
+<input type="reset" value="limpar">
+</p>
+
+    </form>
+</body>
+</html>
