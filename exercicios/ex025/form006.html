@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cor, range e file</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+<p>
+    Cor
+    <label for="icor"></label>
+    <input type="color" name="cor" id="icor">
+</p>
+
+<p>
+    Nível de satisfação
+    <label for="irange"></label>
+    <input type="range" name="range" id="irange" minlength="1" maxlength="5" value="2,5">
+</p>
+
+<p>
+    File/Arquivo
+    <label for="ifile"></label>
+    <input type="file" name="file" id="ifile">
+</p>
+<p>
+    <input type="submit" value="enviar">
+<input type="reset" value="limpar">
+</p>
+    </form>
+</body>
+</html>
