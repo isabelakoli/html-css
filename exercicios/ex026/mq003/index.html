@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media query</title>
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">
-    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation:landscape)">
-   
+    <style>
+    /*Declarações gerais */
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #0817ff;
+}
+
+h1{
+    color: white;
+   text-align: center;
+}
+
+     /*Declarações retrato */
+@media screen  and (orientation: portrait)
+    {
+        body{
+    background-size: 100%;
+background:url(../mq002/estilos/cev-portrait.jpg) center bottom no-repeat;
+background-size:contain ;
+
+     }
+}
+
+     /*Declarações Paisagem */
+     @media screen and (orientation: landscape)
+     {
+        body{
+    background-size:100%;
+    background: url(../mq002/estilos/cev-landscape.jpg);
+    background-position: left bottom;
+}
+    }
+
+    </style>
     
 </head>
 <body>
