@@ -81,7 +81,8 @@ h1{
     img#impressão{display: none;}
     img#tablet{display: none;}
     img#tv{display: none;}
-    img#pc{display:block;}
+    img#PC{display:block;}
+    
     body{
         background: black url(../back-pc.jpg);
       }  
