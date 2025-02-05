@@ -51,3 +51,14 @@ main>p{
     padding: 5px;
    
 }
+
+.material-symbols-outlined{
+    color: white;
+    background-color: #525252;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px  solid gray ;
+   margin: 20px;
+}
