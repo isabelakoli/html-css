@@ -17,12 +17,12 @@ header>h1{
  text-align: center;
 }
 menu{
-   display: block;
+   display: none;
 }
 menu> ul{
     list-style-type: none;
 }
-menu >ul>li>a{
+menu > ul > li > a{
     color: white;
     background-color: #525252;
     display: block;
@@ -35,6 +35,19 @@ menu >ul>li>a{
 }
 menu >ul>li>a:hover{
     background-color: #c5c5c3;
+}
+span#burger{
+    background-color: #999997;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+span#burguer:hover {
+    background-color: white;
+    color: black;
+    
 }
 main{
     background: white ;
@@ -50,4 +63,15 @@ main{
 main>p{
     padding: 5px;
    
+}
+
+.material-symbols-outlined{
+    color: white;
+    background-color: #525252;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px  solid gray ;
+   margin: 20px;
 }
