@@ -6,7 +6,7 @@
 telas grandes;acima de 120px
 
 */
-@media screen and ( min-width:768) {
+@media screen and ( min-width:768px) {
 
    #burguer
    {
