@@ -3,31 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox002</title>
+    <title>Flexbox003</title>
     <style>
 
         div.container{
        background-color: lightsalmon;
        display: flex;
-       flex-direction: column-reverse;
+       flex-flow: row wrap ;
+       justify-content: space-around;
+       
         }
         div.item{
-   background-color: lightskyblue;
+   background:30px lightskyblue;
    border: 1px solid black;
    text-align: center;
-   flex: auto;
+  
         }
     </style>
 </head>
 <body>
     <div class="container">
-   <div class="item">A</div>
-   <div class="item">B</div>
-   <div class="item">C</div>
-   <div class="item">D</div>
-   <div class="item">E</div>
-   <div class="item">F</div>
-   <div class="item">G</div>
+   <div class="item">BLOCO   A</div>
+   <div class="item">BLOCO   B</div>
+   <div class="item">BLOCO   C</div>
+   <div class="item">BLOCO   D</div>
+   <div class="item">BLOCO   E</div>
+   <div class="item">BLOCO   F</div>
+   <div class="item">BLOCO   G</div>
     </div>
 </body>
 </html>
