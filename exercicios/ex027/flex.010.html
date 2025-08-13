@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 10</title>
+</head>
+<style>
+div.container{
+       background-color: lightsalmon;
+       display: flex;
+       flex-wrap: row nowrap;
+        }
+        div.item{
+   background-color: lightskyblue;
+   border: 1px solid black;
+  text-align: center;
+   flex-basis: 140px;
+   flex-shrink: 1;
+   flex-grow: 0;
+        }
+        
+        
+
+        div#c.d{
+           flex-grow: 1;
+           flex-shrink:0 ;
+        }
+         div#c.e{
+           flex-grow:1 ;
+           flex-shrink:2 ;
+        }
+         div#c.f{
+           flex-grow: 2;
+           flex-shrink:1 ;
+        }
+         div#c.g{
+           flex-grow:3 ;
+           flex-shrink:1 ;
+        }
+        
+
+
+          </style>
+<body>
+     <div class="container">
+   <div class="item" id="c.a">A</div>
+   <div class="item"id="c.b">B</div>
+   <div class="item"id="c.c">C</div>
+   <div class="item"id="c.d">D</div>
+   <div class="item"id="c.e">E</div>
+   <div class="item"id="c.f">F</div>
+   <div class="item"id="c.g">G</div>
+    </div>
+
+</body>
+</html>
