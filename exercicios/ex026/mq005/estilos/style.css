@@ -16,12 +16,7 @@ header>h1{
  color: black;
  text-align: center;
 }
-menu{
-   display: none;
-}
-menu> ul{
-    list-style-type: none;
-}
+
 menu > ul > li > a{
     color: white;
     background-color: #525252;
