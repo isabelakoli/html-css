@@ -1,0 +1,127 @@
+@charset "UTF-8";
+*{
+         padding: 0px;
+         margin: 0px;
+      }
+
+      @media screen and (min-width:600px) and (max-width:768px){
+body{
+   
+    background-color: #b1b1a7;
+ }
+ header{
+   background-color: #74746d;
+ }
+
+ h1{
+   
+   padding: 10px 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ div.container{
+    display: flex;
+    flex-direction: row space;
+   justify-content: center;
+ }
+
+ div.item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 3px;
+ }
+ main{
+   margin: 10px 5px;
+   padding: 10px 5px;
+  background-color: white;
+    align-items:center;
+    border-radius: 3px;
+    box-shadow: 1px  rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+      }
+@media screen and (min-width:768px) and (max-width:992px){
+    
+
+      body{
+   
+    background-color: #b1b1a7;
+ }
+ header{
+   background-color: #74746d;
+ }
+
+ h1{
+   
+   padding: 10px 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ div.container{
+    display: flex;
+    flex-direction: row space;
+   justify-content: center;
+ }
+
+ div.item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 3px;
+ }
+ main{
+   margin: 10px 5px;
+   padding: 10px 5px;
+  background-color: white;
+    align-items:center;
+    border-radius: 3px;
+    box-shadow: 1px  rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ }
+ @media screen and (min-width:992px) and (max-width:1200px){
+body{
+   
+    background-color: #b1b1a7;
+ }
+ header{
+   background-color: #74746d;
+ }
+
+ h1{
+   
+   padding: 10px 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ div.container{
+    display: flex;
+    flex-direction: row space;
+   justify-content: center;
+ }
+
+ div.item{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 3px;
+ }
+ main{
+   margin: 10px 5px;
+   padding: 10px 5px;
+  background-color: white;
+    align-items:center;
+    border-radius: 3px;
+    box-shadow: 1px  rgb(14, 13, 13);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ }
+
