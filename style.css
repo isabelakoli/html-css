@@ -1,14 +1,20 @@
 @charset "UTF-8";
 *{
-         padding: 0px;
-         margin: 0px;
-      }
- body{
-   
-    background-color: #b1b1a7;
+   padding: 0px;
+   margin: 0px;
+}
+body { 
+     background-color: #b1b1a7;
+
  }
  header{
+  padding: 20px;
    background-color: #74746d;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+
  }
 
  h1{
@@ -17,21 +23,27 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
- div.container{
-    display: flex;
-    flex-direction: row space;
-   justify-content: center;
+ header>nav{
+  border: 1px dotted black;
+    
+ }
+ header> nav> a{
+  background-color:black ;
+  color: white;
+  border-radius: 5px;
+  padding:10px ;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+ }
+ a:hover{
+  background-color: white;
+  color: black;
  }
 
- div.item{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    width: 100px;
-    border-radius: 3px;
- }
+
  main{
+
    margin: 10px 5px;
    padding: 10px 5px;
   background-color: white;
@@ -40,6 +52,5 @@
     box-shadow: 1px  rgb(14, 13, 13);
     font-family: Arial, Helvetica, sans-serif;
  }
-
-
-
+   
+   
