@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+ section.conteudoflex{
+
+ }
+ article.elem-text>div.resto1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+ }
+ article.elem-text>div.media{
+   display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+  
+}
+ article.elem-text
+ article.text-elem>div.video{
+   display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+   
+
+}
