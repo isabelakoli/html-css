@@ -3,20 +3,20 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header{
-
+p,h1,h2{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+header,section.normal{
+  padding: 20px;
 }
 section.conteudoflex{
-    background-color: rgb(173, 173, 161);
+    background-color: rgb(104, 98, 92);
+}
+ article.elem-text>div.media{ 
     
 }
-article.elem-text>div.media{
-   display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-article.text-elem>div.video{
-   display: flex;
-    flex-wrap: nowrap;
+div.video>iframe{
+    
     justify-content: center;
 }

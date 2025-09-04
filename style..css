@@ -1,24 +1,40 @@
 @charset "UTF-8";
 
  section.conteudoflex{
-
+ display: flex ;
+ flex-flow:column nowrap;
  }
- article.elem-text>div.resto1{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: start;
- }
- article.elem-text>div.media{
+  article.elem-text{
    display: flex;
-    flex-wrap: nowrap;
-    justify-content: end;
-  
+     flex-flow: row wrap-reverse;
+
 }
- article.elem-text
- article.text-elem>div.video{
-   display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-   
 
+ article.text-elem{
+   display: flex;
+   flex-flow:  row nowrap;
+    
+}
+
+
+article>div.text{
+  flex: 1 1 650px;
+  border: 1px dotted red;
+  padding:0px 20px ;
+}
+article>div.media{
+  flex: 1 0 250px;
+  border: 1px dotted blue;
+
+}
+div.media{
+  display: block;
+  margin: auto;
+height: 90%;
+}
+
+div.video>iframe{
+  display: block;
+  margin: auto;
+height: 90%;
 }
